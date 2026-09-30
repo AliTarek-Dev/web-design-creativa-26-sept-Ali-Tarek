@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="name">firstName:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          pattern="[A-Za-z]+"
+          title="Please enter a valid first name (letters only)"
+        /><br /><br />
+      </div>
+      <div>
+        <label for="phone">phone:</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          maxlength="11"
+          pattern="01[012][0-9]{8}"
+          title="Please enter a valid 11-digit phone number"
+        /><br /><br />
+      </div>
+      <div>
+        <label for="course">Choose a course:</label>
+
+        <input type="text" id="course" name="course" list="courses" />
+
+        <datalist id="courses">
+          <option value="HTML & CSS"></option>
+          <option value="JavaScript"></option>
+          <option value="React"></option>
+          <option value="MongoDB"></option>
+        </datalist><br><br>
+      </div>
+      <div>
+        <label for="images">Upload Images:</label>
+        <input type="file" id="images" name="images" multiple  accept=".png"/>
+        <br><br>
+      </div>
+      <div>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" minlength="20" maxlength="100"></textarea>
+        <br><br>
+      </div>
+      <div>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+        <br><br>
+      </div>
+      <div>
+        <label for="ID">ID:</label>
+        <input type="text" id="ID" name="ID" required pattern="[0-9]{14}"  maxlength="14"  title="Please enter a valid 14-digit ID" />
+        <br><br>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
