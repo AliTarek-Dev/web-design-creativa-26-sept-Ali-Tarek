@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  position: relative;
+  background-color: rgba(130, 130, 131, 0.865);
+}
+.card-1 {
+  width: 350px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 550px;
+  background-color: white;
+  padding: 25px 5px;
+  border-radius: 5%;
+  border: solid 2px rgb(214, 213, 213);
+}
+.icon {
+  background-color: rgb(20, 63, 171);
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  outline: solid 5px rgba(0, 54, 248, 0.363);
+}
+.title {
+  color: black;
+  text-transform: capitalize;
+  margin: 5px;
+  font-size: 27px;
+}
+.description {
+  text-transform: capitalize;
+  margin: 5px;
+  font-size: 18px;
+  color: rgb(20, 63, 171);
+}
+.p-description {
+  margin: 15px;
+  color: gray;
+}
+.follow {
+  padding: 10px;
+  width: 35%;
+  margin-top: 5px;
+  margin-right: 22px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(20, 63, 171);
+  color: white;
+  font-weight: bold;
+}
+.message {
+  padding: 10px;
+  width: 35%;
+  margin-top: 5px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: rgb(20, 63, 171);
+  font-weight: bold;
+  border: 2px solid rgb(20, 63, 171);
+}
+.assignment-1 {
+  position: absolute;
+  top: 30px;
+  left: 650px;
+}
+.card-2 {
+  width: 250px;
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  left: 600px;
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px rgb(214, 213, 213);
+  overflow: hidden;
+  height: 350px;
+}
+.head {
+  width: 100%;
+  background-color: rgb(20, 63, 171);
+}
+.title-2 {
+  padding-bottom: 3px;
+  padding-top: 12px;
+  color: rgb(217, 221, 231);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.description-2 {
+  color: white;
+  font-size: 50px;
+}
+.assignment-2 {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+.p-description-2 {
+  color: rgb(217, 221, 231);
+  padding-bottom: 16px;
+}
+.text-style {
+  padding: 12px;
+}
+.btn {
+  text-transform: capitalize;
+  background-color: orange;
+  margin-top: 20px;
+  margin-left: 26px;
+  height: 40px;
+  width: 200px;
+  position: relative;
+  padding-top: 10px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.assignment-3{
+  position: absolute;
+  top: 1000px;
+  left: 650px;
+}
+
+.card-3{
+    width: 500px;
+    background-color: rgb(224, 225, 226);
+    position: absolute;
+    top: 1100px;
+    left: 500px;
+    
+}
+.card-head{
+    text-align: center;
+    height: 60px;
+    padding-top: 18px;
+    background-color:rgb(20, 63, 171) ;
+    text-transform: capitalize;
+    color: white;
+}
+.card-body{
+    background-color: white;
+    width: 400px;
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.cardbody-head{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color:rgb(20, 63, 171);
+}
+.cardbody-text{
+    color:gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-body2{
+    background-color: rgba(234, 187, 33, 0.696);
+    padding:22px;
+    width:400px ;
+    margin:auto ;
+    margin-top: 20px;
+    margin-bottom: 22px;
+  
+}
+.cardbody2-head{
+    text-transform: capitalize;
+}
+.textbody-2{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.footer{
+    height: 60px;
+    background-color:black ;
+    color: white;
+    text-align: center;
+}
+.footer-text{
+    padding-top: 23px;
+}
+.task-end{
+    position: absolute;
+    top: 1600px;
+    font-size: 30px;
+    left:300px ;
+}
