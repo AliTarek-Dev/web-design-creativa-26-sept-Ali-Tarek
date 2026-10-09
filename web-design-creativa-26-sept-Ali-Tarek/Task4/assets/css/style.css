@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header {
+  text-align: center;
+  margin-top: 80px;
+  text-transform: capitalize;
+  color: darkblue;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  gap: 30px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(199, 199, 199);
+  text-transform: capitalize;
+  padding: 20px;
+  width: 40%;
+  position: relative;
+  text-align: center;
+}
+.icon {
+  background-color: rgb(10, 10, 159);
+  padding: 30px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 40px;
+  top: -35%;
+  left: 37%;
+  color: white;
+}
+.icon-2 {
+  background-color: rgb(221, 21, 21);
+  padding: 30px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 40px;
+  top: -35%;
+  left: 37%;
+  color: white;
+}
+.icon-3 {
+  background-color: rgb(0, 133, 24);
+  padding: 30px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 40px;
+  top: -35%;
+  left: 37%;
+  color: white;
+}
+.fa-solid {
+  position: relative;
+  left: -10%;
+  top: -10%;
+}
+.card-h {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: rgb(2, 2, 58);
+}
+.card-text {
+  color: rgb(10, 10, 159);
+  font-weight: bold;
+}
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+.icon-style {
+  background-color: darkblue;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+.leader {
+  background-color: orange;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  padding-top: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  left: 82%;
+  border-radius: 3px;
+  border-right: none;
+}
